@@ -1,16 +1,10 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package Common;
 
 import java.util.Random;
 import java.util.Scanner;
 
-/**
- *
- * @author ACER
- */
+
 public class Library {
 
     public int getInt(String promt, int m, int n) {
@@ -30,7 +24,6 @@ public class Library {
         }
         return a;
     }
-
     public int[] createArray(int size_Array) {
         int[] array = new int[size_Array];
         Random rd = new Random();
@@ -39,7 +32,6 @@ public class Library {
         }
         return array;
     }
-
     public void display(int[] array) {
         for (int i = 0; i < array.length; i++) {
             if (i < array.length - 1) {
