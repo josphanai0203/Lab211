@@ -87,15 +87,7 @@ class List {
 public class Main {
 
     public static void main(String[] args) {
-        List l1 = new List();
-        l1.add_tail(5);
-        l1.add_tail(2);
-        l1.add_tail(6);
-        l1.add_tail(7);
-        l1.add_tail(1);
-        l1.add_head(0);
-        l1.add_with_position(10, 10);
-        System.out.println(l1.toString());
+        System.out.println(Double.parseDouble("-1.2"));
 
     }
 }
