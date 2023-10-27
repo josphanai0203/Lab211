@@ -4,7 +4,7 @@ package model;
 public class Dump {
     private int totalGarbage;
     private float time;
-    private long costPaidToDump;
+    private int costPaidToDump;
 
     public Dump() {
     }
@@ -31,11 +31,11 @@ public class Dump {
         this.time = time;
     }
 
-    public long getCostPaidToDump() {
+    public int getCostPaidToDump() {
         return costPaidToDump;
     }
 
-    public void setCostPaidToDump(long costPaidToDump) {
+    public void setCostPaidToDump(int costPaidToDump) {
         this.costPaidToDump = costPaidToDump;
     }
     

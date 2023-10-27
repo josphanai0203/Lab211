@@ -34,5 +34,6 @@ public class HouseholdWasteController extends Menu<String>{
     private void handleInput(){
         ArrayList<Integer> arr = library.getArrInt("Enter Number garbage ");
         service.handleHouseholdWaste(arr);
+        service.mustPay();
     }
 }
